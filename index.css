@@ -1,0 +1,171 @@
+header .logo {
+  width: 900px;
+  height: auto;
+  text-align: right;
+}
+
+.items{
+  background-color: #E2F5FB;
+  height: 600px;
+}
+.items-img1 {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-left: 5%;
+
+}
+.items-img2{
+  width: 1550px;
+  height: auto;
+}
+.items-img3{
+  width: auto;
+  height: auto;
+}
+
+.medicine-content {
+  background-color: #17414f;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  margin: 10px 0;
+  margin-top: -8%;
+}
+
+.medicine-content-card-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -6%;
+}
+
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 80%;
+  }
+
+  .items-img {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 90%;
+  }
+
+  .items-img {
+    max-width: 200px;
+  }
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 10px; 
+}
+.elementor-element{
+  width: 490px;
+  margin-left: 17%;
+ 
+}
+.medicine{
+  width: 100%;
+  margin-top: -15%;
+}
+.jpg-2{
+  width: 200px;
+  height: 370px;
+}
+.blog2{
+  width: 220px;
+  height: 200px;
+}
+.blogs{
+  width:95%;
+  height: 100%;
+}
+.blog4-card{
+  text-align: right;
+
+
+}
+.blog4{
+  margin-top: -70%;
+  border-radius: 10px;
+  width: 340px;
+  height: 400px;
+  margin-left: 80%;
+}
+
+
+
+@media (max-width: 768px) {
+  .elementor-element-card,
+  .medicine-info {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .elementor-element {
+    max-height: 300px;
+  }
+
+  .medicine {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .elementor-element {
+    max-height: 250px;
+  }
+
+  .medicine {
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .elementor-element,
+  .medicine {
+    max-height: 200px;
+  }
+}
+@media (max-width: 768px) {
+  
+  .left-section,
+  .main-section {
+    width: 100%;
+  }
+
+ 
+  .secondary-img-container .blog2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .left-section .jpg-2 {
+    width: 100%;
+  }
+
+
+  .main-section .blogs,
+  .blog4-card .blog4 {
+    width: 100%;
+  }
+}
